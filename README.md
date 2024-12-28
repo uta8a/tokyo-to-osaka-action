@@ -1,3 +1,5 @@
 # tokyo-to-osaka-action
 
-joke: CIにかかった時間で東京から大阪に行こう
+Joke action: Visualize CI/CD time to line from Tokyo to Osaka on geojson
+
+
