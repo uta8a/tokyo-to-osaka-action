@@ -8,7 +8,7 @@ const getWorkflowRunTime = async (
   token: string,
 ): Promise<Hour> => {
   const octokit = getOctokit(token);
-  const { data } = await octokit.actions.getWorkflowRun({
+  const { data } = await octokit.rest.actions.getWorkflowRun({
     owner,
     repo,
     run_id: runId,
