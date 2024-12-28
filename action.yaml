@@ -9,7 +9,7 @@ runs:
   main: "dist/main.js"
   post: "dist/post.js"
 inputs:
-  github_token:
+  github-token:
     description: "GitHub token"
     required: false
     default: "${{ github.token }}"
