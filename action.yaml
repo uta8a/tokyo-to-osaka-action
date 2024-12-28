@@ -1,0 +1,10 @@
+name: "Tokyo to Osaka action"
+author: "Masanori Tani (uta8a)"
+description: "Joke action: Visualize CI/CD time to line from Tokyo to Osaka on geojson"
+branding:
+  icon: "globe"
+  color: "blue"
+runs:
+  using: "node20"
+  main: "dist/main.js"
+  post: "dist/post.js"
