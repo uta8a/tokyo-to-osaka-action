@@ -8,7 +8,7 @@ await dnt({
     "./src/main.ts",
     "./src/post.ts",
   ],
-  outDir: "./dist/dnt",
+  outDir: "./dnt",
   shims: {
     deno: true,
   },
@@ -42,14 +42,14 @@ console.log("$ esbuild");
 await Promise.all([
   esbuild({
     bundle: true,
-    entryPoints: ["./dist/dnt/esm/src/main.js"],
+    entryPoints: ["./dnt/esm/src/main.js"],
     outfile: "./dist/main.js",
     platform: "node",
     target: "es2021",
   }),
   esbuild({
     bundle: true,
-    entryPoints: ["./dist/dnt/esm/src/post.js"],
+    entryPoints: ["./dnt/esm/src/post.js"],
     outfile: "./dist/post.js",
     platform: "node",
     target: "es2021",
