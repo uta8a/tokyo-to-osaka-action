@@ -23906,7 +23906,7 @@ var import_core = __toESM(require_core(), 1);
 var import_github = __toESM(require_github(), 1);
 var getWorkflowRunTime = async (owner, repo, runId, token) => {
   const octokit = (0, import_github.getOctokit)(token);
-  const { data } = await octokit.actions.getWorkflowRun({
+  const { data } = await octokit.rest.actions.getWorkflowRun({
     owner,
     repo,
     run_id: runId
