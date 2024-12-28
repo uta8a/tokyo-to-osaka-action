@@ -8,3 +8,8 @@ runs:
   using: "node20"
   main: "dist/main.js"
   post: "dist/post.js"
+inputs:
+  github_token:
+    description: "GitHub token"
+    required: false
+    default: "${{ github.token }}"
