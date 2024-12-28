@@ -2,7 +2,8 @@
 
 Joke action: Visualize CI/CD time to line from Tokyo to Osaka on geojson
 
-![スクリーンショット 2024-12-28 16 33 26](https://gist.github.com/user-attachments/assets/f7aa55d0-2f4a-4b83-a6f4-5afd09f71731)
+![スクリーンショット 2024-12-28 16 33 26](https://github.com/user-attachments/assets/908e14e5-36fa-498c-bd5b-85e4db5b2ab0)
+
 
 # Usage
 
